@@ -1,0 +1,4 @@
+rut,nombre,correo,tipo_cliente,dato_especifico,beneficios
+12345678-9,Juan Perez,juan@mail.com,Regular,True,Plan Estandar
+87654321-0,Ana Gold,ana@premium.com,Premium,Soporte 24/7,Gestor VIP
+45678901-2,Tech Corp,contacto@tech.cl,Corporativo,Soluciones IT,Descuento Mayorista
