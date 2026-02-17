@@ -1,4 +1,4 @@
 rut,nombre,correo,tipo_cliente,dato_especifico,beneficios
-12345678-9,Juan Perez,juan@mail.com,Regular,True,Plan Estandar
-87654321-0,Ana Gold,ana@premium.com,Premium,Soporte 24/7,Gestor VIP
-45678901-2,Tech Corp,contacto@tech.cl,Corporativo,Soluciones IT,Descuento Mayorista
+12345678-9,Juan Perez,juan@mail.com,Regular,True,Plan Estándar
+98765432-1,Marta Gomez,marta@tech.com,Premium,Gestor VIP,Gestor VIP
+11223344-5,Empresa Alfa,contacto@alfa.cl,Corporativo,Alpha S.A.,Descuentos exclusivos

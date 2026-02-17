@@ -1,0 +1,24 @@
+[2026-02-16 22:24:51] SESIÓN: El usuario 'admin' ha ingresado al sistema.
+[2026-02-16 22:25:35] INGRESO: Cliente juan (RUT: 11111111) guardado con éxito.
+[2026-02-16 22:27:55] SESIÓN: El usuario 'admin' cerró el sistema.
+[2026-02-16 22:35:22] SESIÓN: Usuario 'Usuario: admin | Rol: admin' ha ingresado al sistema.
+[2026-02-16 22:36:12] ERROR al guardar CSV: 'ClientePremium' object has no attribute 'membresia'
+[2026-02-16 22:36:12] INGRESO: Cliente flor silva (RUT: 11.111.111-1) agregado
+[2026-02-16 22:36:44] ERROR al guardar CSV: 'ClientePremium' object has no attribute 'membresia'
+[2026-02-16 22:36:44] ELIMINACIÓN: Cliente RUT 11.111.111-1 borrado
+[2026-02-16 22:43:17] SESIÓN: Usuario 'Usuario: admin | Rol: admin' cerró el sistema.
+[2026-02-16 22:46:12] SESIÓN: Usuario 'Usuario: venta1 | Rol: vendedor' ha ingresado al sistema.
+[2026-02-16 22:46:15] ADVERTENCIA: Usuario 'Usuario: venta1 | Rol: vendedor' intentó eliminar sin permisos.
+[2026-02-16 22:46:47] ERROR al guardar CSV: 'ClienteCorporativo' object has no attribute 'empresa'
+[2026-02-16 22:46:47] INGRESO: Cliente flor silva (RUT: 11.111.111-1) agregado
+[2026-02-16 23:14:25] SESIÓN: Usuario 'Usuario: admin | Rol: admin' ha ingresado al sistema.
+[2026-02-16 23:14:25] Clientes cargados: 3
+[2026-02-16 23:15:12] Datos guardados en CSV exitosamente
+[2026-02-16 23:15:12] INGRESO: Cliente flor silva (RUT: 11.111.111-1) agregado
+[2026-02-16 23:16:12] Datos guardados en CSV exitosamente
+[2026-02-16 23:16:12] ELIMINACIÓN: Cliente RUT 11.111.111-1 borrado
+[2026-02-16 23:16:19] SESIÓN: Usuario 'Usuario: admin | Rol: admin' cerró el sistema.
+[2026-02-17 15:26:11] SESIÓN: Usuario 'Usuario: venta1 | Rol: vendedor' ha ingresado al sistema.
+[2026-02-17 15:26:11] Clientes cargados: 3
+[2026-02-17 15:26:14] ADVERTENCIA: Usuario 'Usuario: venta1 | Rol: vendedor' intentó eliminar sin permisos.
+[2026-02-17 15:27:12] BÚSQUEDA: Se encontraron 1 clientes con 'juan'
