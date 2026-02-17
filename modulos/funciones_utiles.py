@@ -17,7 +17,7 @@ def ingresar_cliente_csv(cliente_obj):
     Recibe un objeto Cliente (o sus subclases), lo valida 
     y lo guarda en el archivo CSV.
     """
-    # 1. Validaciones previas (Requerimiento SolutionTech)
+    # 1. Validaciones previas (Integridad de datos)
     if not validar_correo(cliente_obj.correo):
         registrar_log(f"ERROR: Intento de ingreso con correo inválido: {cliente_obj.correo}")
         return False, "Correo electrónico no válido."
@@ -26,7 +26,6 @@ def ingresar_cliente_csv(cliente_obj):
         # 2. Guardar en CSV (Persistencia)
         with open("clientes.csv", "a", newline="", encoding="utf-8") as archivo:
             escritor = csv.writer(archivo)
-            # Extraemos los datos del objeto
             escritor.writerow([
                 cliente_obj.rut, 
                 cliente_obj.nombre, 

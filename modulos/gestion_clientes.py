@@ -7,8 +7,7 @@ class GestionClientes:
     def __init__(self):
         self.lista_clientes = []
         self.cargar_clientes_desde_csv()
-    
-    # ...existing code...
+
 
     def cargar_clientes_desde_csv(self):
         """Carga los clientes desde el archivo CSV al iniciar"""
@@ -29,14 +28,14 @@ class GestionClientes:
                             fila['rut'],
                             fila['nombre'],
                             fila['correo'],
-                            fila['beneficios']  # Cambiado de dato_especifico a beneficios
+                            fila['beneficios'] 
                         )
                     elif fila['tipo_cliente'] == 'Corporativo':
                         cliente = ClienteCorporativo(
                             fila['rut'],
                             fila['nombre'],
                             fila['correo'],
-                            fila['dato_especifico']  # Esto toma "Alpha S.A."
+                            fila['dato_especifico']  
                         )
                     self.lista_clientes.append(cliente)
             registrar_log(f"Clientes cargados: {len(self.lista_clientes)}")
@@ -45,7 +44,6 @@ class GestionClientes:
         except Exception as e:
             registrar_log(f"ERROR al cargar CSV: {e}")
 
-    # ...existing code...
 
 
     def guardar_datos_csv(self):
@@ -71,8 +69,8 @@ class GestionClientes:
                             cliente.nombre, 
                             cliente.correo,
                             'Premium', 
-                            cliente.membresia,  # dato_especifico
-                            'Gestor VIP'        # beneficios
+                            cliente.membresia,  
+                            'Gestor VIP'        
                         ])
                     elif isinstance(cliente, ClienteCorporativo):
                         escritor.writerow([
@@ -80,8 +78,8 @@ class GestionClientes:
                             cliente.nombre, 
                             cliente.correo,
                             'Corporativo', 
-                            cliente.razon_social,    # dato_especifico (empresa)
-                            'Descuentos exclusivos'  # beneficios
+                            cliente.razon_social,    
+                            'Descuentos exclusivos'  
                         ])
             registrar_log("Datos guardados en CSV exitosamente")
         except Exception as e:
@@ -245,4 +243,3 @@ class GestionClientes:
                 print(f"❌ No se encontraron clientes con el nombre: {nombre_buscar}")
         else:
             print("❌ Criterio no válido")
-

@@ -29,7 +29,6 @@ def ejecutar_sistema():
     
     registrar_log(f"SESIÓN: Usuario '{sesion_activa}' ha ingresado al sistema.")
     
-    # Crear instancia de GestionClientes
     gestor = GestionClientes()
 
     while True:

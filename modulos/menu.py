@@ -1,6 +1,6 @@
 def mostrar_bienvenida():
     print("="*30)
-    print("  SOLUTION TECH - SISTEMA GIC  ")
+    print("  SOLUTION TECH - SISTEMA GESTIÓN DE CLIENTES")
     print("="*30)
 
 def menu_principal():

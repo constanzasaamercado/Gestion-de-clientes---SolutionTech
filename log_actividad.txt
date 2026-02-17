@@ -22,3 +22,5 @@
 [2026-02-17 15:26:11] Clientes cargados: 3
 [2026-02-17 15:26:14] ADVERTENCIA: Usuario 'Usuario: venta1 | Rol: vendedor' intentó eliminar sin permisos.
 [2026-02-17 15:27:12] BÚSQUEDA: Se encontraron 1 clientes con 'juan'
+[2026-02-17 17:24:13] ERROR: RUT inválido ingresado: 4
+[2026-02-17 17:24:43] ERROR: RUT inválido ingresado: 22.222.222.2
